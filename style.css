@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: gray;
+}
+
+input {
+  border: 1px solid gray;
+  padding: 5px 10px;
+}
+
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.signUp-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.input-contain {
+  width: 100%;
+}
+
+.input-contain .field-input {
+  width: 95%;
+}
+
+.btn-submit {
+  width: 100%;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background-color: rgb(36, 203, 245);
+  color: #fff;
+  border: 1px solid gray;
+}
+
+.error-message {
+  color: red;
+}
